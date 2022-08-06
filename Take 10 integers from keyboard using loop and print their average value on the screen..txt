@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i, sum=0,n, avg;
+    for(i=1;i<=10;i++){
+        cout<<"Enter number  "<< i<< endl;
+    cin>>n;
+    sum=sum+n;
+}
+   
+   cout<<"sum="<<sum<<endl;
+  cout<<"avg="<<(double)(sum/10.0)<<endl;
+  
+   
+   
+}
